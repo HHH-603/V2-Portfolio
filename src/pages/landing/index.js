@@ -1,4 +1,6 @@
 import React from 'react';
+import LandingContainer from '../../components/landing-container';
+import Wrapper from '../../components/wrapper';
 import './style.css';
 
 var greeting = () => {
@@ -18,7 +20,12 @@ var greeting = () => {
 
 const Landing = () => {
     return (
-        <h1>{greeting()}</h1>
+        <Wrapper>
+            <LandingContainer>
+                <h1>{greeting()}</h1>
+                <p>My name is Hank, and I'm a Web Developer based in <a className="anchor-link" href="https://en.wikipedia.org/wiki/Charlotte,_North_Carolina">Charlotte, NC</a>. I love designing, bulding, and implementing software solutions that create optimal user experiences and clarly convey the value of client goods and services.</p>
+            </LandingContainer>
+        </Wrapper>
     );
 };
 

@@ -1,0 +1,21 @@
+.landing-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: auto;
+    width: 30%;
+    background-color: whitesmoke;
+}
+
+@media screen and (max-width: 600px) {
+    .landing-container {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .landing-container {
+        width: auto;
+        padding: 0 1rem;
+    }
+}
