@@ -1,5 +1,4 @@
 import React from 'react';
-import Landing from '../../pages/landing';
 import './style.css';
 
 const LandingContainer = (props) => {
