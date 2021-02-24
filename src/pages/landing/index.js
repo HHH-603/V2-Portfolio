@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import LandingContainer from '../../components/landing-container';
+import Navbar from '../../components/navbar';
 import Wrapper from '../../components/wrapper';
 
 import './style.css';
