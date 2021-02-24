@@ -1,0 +1,10 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+}
+
+.profile {
+    height: 15rem;
+    border-radius: 50%;
+}
