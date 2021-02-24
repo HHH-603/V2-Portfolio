@@ -5,9 +5,9 @@ import './style.css';
 const Navbar = () => {
     return (
         <>
-            <div className="navbar-container">
-                <h3>Hank Holmes</h3>
-                <Link className="navbar-link" to="/">About</Link>
+            <div className="navbar">
+                <Link className="navbar-link" to="/">Home</Link>
+                <Link className="navbar-link" to="/about">About</Link>
                 <Link className="navbar-link" to="#">Work</Link>
                 <Link className="navbar-link" to="#">Contact</Link>
             </div>
