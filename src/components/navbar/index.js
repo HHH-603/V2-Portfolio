@@ -15,7 +15,6 @@ const Navbar = () => {
                 <Link className="dropdown-link" to="/">About</Link>
                 <Link className="dropdown-link" to="#">Work</Link>
                 <Link className="dropdown-link" to="#">Contact</Link>
-
             </div>
         </>
     );

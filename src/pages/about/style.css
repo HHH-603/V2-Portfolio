@@ -8,3 +8,24 @@
     height: 15rem;
     border-radius: 50%;
 }
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.about-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin: 0 1rem;
+    flex: 1;
+}
+
+.skill-list {
+    list-style: none;
+}
