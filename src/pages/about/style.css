@@ -1,7 +1,12 @@
+.heading {
+    text-align: center;
+    margin-bottom: .25rem;
+    padding-bottom: .25rem;
+}
+
 .profile-container {
     display: flex;
     justify-content: center;
-    background-color: burlywood;
 }
 
 .profile {
@@ -13,19 +18,44 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 1rem;
+    margin: .25rem;
+    padding: .25rem;
 }
 
 .about-container {
     display: flex;
     flex-flow: column wrap;
+    width: 50vw;
+    margin: .25rem;
+    padding: .25rem;
+}
+
+.about-link {
+    text-decoration: none;
+    color: #F0F1F2;
+}
+
+.about-link:hover,
+.about-link:focus {
+    border-bottom: .1rem solid #F0F1F2;
+}
+
+.skills-container {
+    display: flex;
+    flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    width: 30%;
-    margin: 0 1rem;
-    flex: 1;
+    width: 50vw;
+    margin: .25rem;
+    padding: .25rem;
 }
 
 .skill-list {
     list-style: none;
+    display: inline-flex;
+}
+
+.skill-list-item {
+    margin: .25rem;
+    padding: .25rem;
 }

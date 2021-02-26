@@ -8,7 +8,7 @@ const About = () => {
     return (
         <>
             <Navbar />
-            <h1>Hello, world!</h1>
+            <h1 className="heading">About</h1>
             <div className="page-wrapper">
                 <div className="profile-container">
                     <img className="profile" src={ProfilePic} alt="profile" />
@@ -24,7 +24,7 @@ const About = () => {
                         When I'm not in front of my computer, I enjoy <a className="about-link" href="https://www.alltrails.com/us/north-carolina">hiking</a>, working on my cooking skills, rooting for <a className="about-link" href="https://en.wikipedia.org/wiki/Boston_Celtics">the NBA's greatest franchise</a>, and exploring the Queen City's <a className="about-link" href="https://www.tripadvisor.com/Attractions-g49022-Activities-c36-t133-Charlotte_North_Carolina.html">outstanding craft breweries</a>.
                     </p>
                 </div>
-                <div className="about-container">
+                <div className="skills-container">
                     <p>Some languages, libraries, and databases I've recently been working with are:</p>
                     <ul className="skill-list">
                         <li className="skill-list-item">JavaScript</li>
