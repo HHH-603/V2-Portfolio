@@ -17,7 +17,7 @@ const About = () => {
             <div className="row">
                 <div className="about-container">
                     <p>
-                        I'm originally from <a className="about-link" href="https://en.wikipedia.org/wiki/Dunbarton,_New_Hampshire">Dunbarton, NH</a>, and recently earned my Full Stack Web Development certification from <a className="about-link" href="https://en.wikipedia.org/wiki/University_of_North_Carolina_at_Charlotte">UNC Charlotte Continuing Education</a> (class of 2021). I previously worked at EveryAction in Washington, DC, where I helped equip mid-sized nonprofits with unified software solutions tailored to their fundraising and advocacy goals.
+                        I'm originally from <a className="about-link" href="https://en.wikipedia.org/wiki/Dunbarton,_New_Hampshire">Dunbarton, NH</a>, and recently earned my Full Stack Web Development certification from <a className="about-link" href="https://en.wikipedia.org/wiki/University_of_North_Carolina_at_Charlotte">UNC Charlotte</a> (class of 2021). I previously worked at EveryAction in Washington, DC, where I helped equip mid-sized nonprofits with unified software solutions tailored to their fundraising and advocacy goals.
                     </p>
                     <br />
                     <p>
