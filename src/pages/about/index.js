@@ -21,18 +21,22 @@ const About = () => {
                     </p>
                     <br />
                     <p>
-                        When I'm not in front of my computer, I enjoy <a className="about-link" href="https://www.alltrails.com/us/north-carolina">hiking</a>, working on my cooking skills, rooting for <a className="about-link" href="https://en.wikipedia.org/wiki/Boston_Celtics">the NBA's greatest franchise</a>, and exploring the Queen City's <a className="about-link" href="https://www.tripadvisor.com/Attractions-g49022-Activities-c36-t133-Charlotte_North_Carolina.html">outstanding craft breweries</a>.
+                        When I'm not in front of my computer, I enjoy <a className="about-link" href="https://www.alltrails.com/us/north-carolina">hiking</a>, <a className="about-link" href="https://www.foodandwine.com/recipes">working on my cooking skills</a>, rooting for <a className="about-link" href="https://en.wikipedia.org/wiki/Boston_Celtics">the NBA's greatest franchise</a>, and exploring <a className="about-link" href="https://www.tripadvisor.com/Attractions-g49022-Activities-c36-t133-Charlotte_North_Carolina.html">the Queen City's outstanding craft breweries</a>.
                     </p>
                 </div>
                 <div className="skills-container">
-                    <p>Some languages, libraries, and databases I've recently been working with are:</p>
+                    <p>Some languages and technologies I've recently been working with are:</p>
                     <ul className="skill-list">
                         <li className="skill-list-item">JavaScript</li>
-                        <li className="skill-list-item">TypeScript</li>
-                        <li className="skill-list-item">Node.js</li>
                         <li className="skill-list-item">React</li>
+                        <li className="skill-list-item">Node.js</li>
+                        <li className="skill-list-item">Express.js</li>
                         <li className="skill-list-item">MongoDB</li>
                         <li className="skill-list-item">MySQL</li>
+                        <li className="skill-list-item">HTML</li>
+                        <li className="skill-list-item">CSS</li>
+                        <li className="skill-list-item"></li>
+                        <li className="skill-list-item"></li>
                     </ul>
                 </div>
             </div>
