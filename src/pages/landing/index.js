@@ -25,8 +25,8 @@ const Landing = () => {
     return (
         <Wrapper>
             <LandingContainer>
-                <h1>{greeting()}</h1>
-                <p>My name is <a className="anchor-link" href="https://www.linkedin.com/in/henryhamiltonholmes/">Hank</a>, and I'm a Web Developer based in <a className="anchor-link" href="https://en.wikipedia.org/wiki/Charlotte,_North_Carolina">Charlotte, NC</a>. I have a passion for creating MERN web applications with thoughtful and intuitive designs.</p>
+                <h1 className="greeting">{greeting()}</h1>
+                <p className="landing-paragraph">My name is <a className="anchor-link" href="https://www.linkedin.com/in/henryhamiltonholmes/">Hank</a>, and I'm a Web Developer based in <a className="anchor-link" href="https://en.wikipedia.org/wiki/Charlotte,_North_Carolina">Charlotte, NC</a>. I have a passion for creating MERN web applications with thoughtful and intuitive designs.</p>
                 <div className="landing-page-links-container">
                     <Link className="landing-page-link" to="/about">About</Link>
                     <Link className="landing-page-link" to="#">Work</Link>
