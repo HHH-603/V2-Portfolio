@@ -25,7 +25,7 @@ const About = () => {
                     </p>
                 </div>
                 <div className="skills-container">
-                    <p>Some languages and technologies I've recently been working with are:</p>
+                    <h3>Some languages and technologies I've recently been working with are:</h3>
                     <ul className="skill-list">
                         <li className="skill-list-item">JavaScript</li>
                         <li className="skill-list-item">React</li>
