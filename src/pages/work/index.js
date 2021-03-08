@@ -6,15 +6,18 @@ import NT from './note-taker-app.png';
 import RG from './readme-generator.png';
 import './style.css';
 import PageWrapper from '../../components/PageWrapper';
+import HeaderContainer from '../../components/HeaderContainer';
 
 const Work = () => {
     return (
         <>
             <Navbar />
-            <h1 className="heading">Work</h1>
-            <h2 className="heading-description">
-                Here are a few projects that I've been working on:
+            <HeaderContainer>
+                <h1 className="heading">Work</h1>
+                <h2 className="heading-description">
+                    Here are a few projects that I've been working on:
             </h2>
+            </HeaderContainer>
             <PageWrapper>
                 <div className="project-card">
                     <div className="image-container">
