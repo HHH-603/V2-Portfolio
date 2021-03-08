@@ -41,8 +41,6 @@ const About = () => {
                         <li className="skill-list-item">MySQL</li>
                         <li className="skill-list-item">HTML</li>
                         <li className="skill-list-item">CSS</li>
-                        <li className="skill-list-item"></li>
-                        <li className="skill-list-item"></li>
                     </ul>
                 </SkillsContainer>
             </PageWrapper>
