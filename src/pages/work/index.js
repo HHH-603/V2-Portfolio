@@ -5,6 +5,7 @@ import BT from './pwa-budget-tracker.png';
 import NT from './note-taker-app.png';
 import RG from './readme-generator.png';
 import './style.css';
+import PageWrapper from '../../components/PageWrapper';
 
 const Work = () => {
     return (
@@ -14,7 +15,7 @@ const Work = () => {
             <h2 className="heading-description">
                 Here are a few projects that I've been working on:
             </h2>
-            <div className="page-wrapper">
+            <PageWrapper>
                 <div className="project-card">
                     <div className="image-container">
                         <a className="project-image-link" href=""></a>
@@ -54,7 +55,7 @@ const Work = () => {
                     </a>
                     </div>
                 </div>
-            </div>
+            </PageWrapper>
             <Footer />
         </>
     );
