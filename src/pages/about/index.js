@@ -29,9 +29,9 @@ const About = () => {
                     <p>
                         When I'm not in front of my computer, I enjoy <a className="about-link" href="https://www.alltrails.com/us/north-carolina">hiking</a>, <a className="about-link" href="https://www.foodandwine.com/recipes">working on my cooking skills</a>, rooting for <a className="about-link" href="https://en.wikipedia.org/wiki/Boston_Celtics">the NBA's greatest franchise</a>, and exploring <a className="about-link" href="https://www.tripadvisor.com/Attractions-g49022-Activities-c36-t133-Charlotte_North_Carolina.html">the Queen City's outstanding craft breweries</a>.
                     </p>
+                    <h3 className="skills-header">Some languages and technologies I've recently been working with are:</h3>
                 </AboutContainer>
                 <SkillsContainer>
-                    <h3>Some languages and technologies I've recently been working with are:</h3>
                     <ul className="skill-list">
                         <li className="skill-list-item">JavaScript</li>
                         <li className="skill-list-item">React</li>

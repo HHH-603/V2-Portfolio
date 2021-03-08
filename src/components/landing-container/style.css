@@ -2,6 +2,12 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    height: auto;
-    width: 20%;
+    max-height: auto;
+    max-width: 20%;
+}
+
+@media screen and (max-width: 1320px) {
+    .landing-container {
+        max-width: 60%;
+    }
 }

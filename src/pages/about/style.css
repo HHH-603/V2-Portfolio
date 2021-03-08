@@ -3,14 +3,6 @@
     border-radius: 50%;
 }
 
-.row {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin: .25rem;
-    padding: .25rem;
-}
-
 .about-link {
     text-decoration: none;
     color: #F0F1F2;
@@ -19,6 +11,12 @@
 .about-link:hover,
 .about-link:focus {
     border-bottom: .15rem solid #F0F1F2;
+}
+
+.skills-header {
+    text-align: center;
+    padding-top: .75rem;
+    margin-top: .75rem;
 }
 
 .skill-list {

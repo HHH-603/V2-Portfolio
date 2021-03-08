@@ -34,19 +34,8 @@
     color: #222626;
 }
 
-@media screen and (max-width: 640px) {
-    .landing-container {
-        width: 60%;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .landing-container {
-        width: auto;
-        padding: 0 1rem;
-    }
-
-    .links-list {
+@media screen and (max-width: 440px) {
+    .landing-page-links-container {
         flex-flow: column wrap;
     }
 }

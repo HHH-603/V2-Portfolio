@@ -1,7 +1,13 @@
 .about-container {
     display: flex;
     flex-flow: column wrap;
-    width: 50vw;
+    max-width: 40%;
     margin: .25rem;
     padding: .25rem;
+}
+
+@media screen and (max-width: 680px) {
+    .about-container {
+        max-width: 100%;
+    }
 }
