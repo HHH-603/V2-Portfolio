@@ -4,6 +4,7 @@ import Footer from '../../components/footer';
 import Navbar from '../../components/navbar';
 import PageWrapper from '../../components/PageWrapper';
 import ProfileContainer from '../../components/ProfileContainer';
+import SkillsContainer from '../../components/SkillsContainer';
 import ProfilePic from '../../images/profile-picture.png';
 import './style.css';
 
@@ -25,7 +26,7 @@ const About = () => {
                         When I'm not in front of my computer, I enjoy <a className="about-link" href="https://www.alltrails.com/us/north-carolina">hiking</a>, <a className="about-link" href="https://www.foodandwine.com/recipes">working on my cooking skills</a>, rooting for <a className="about-link" href="https://en.wikipedia.org/wiki/Boston_Celtics">the NBA's greatest franchise</a>, and exploring <a className="about-link" href="https://www.tripadvisor.com/Attractions-g49022-Activities-c36-t133-Charlotte_North_Carolina.html">the Queen City's outstanding craft breweries</a>.
                     </p>
                 </AboutContainer>
-                <div className="skills-container">
+                <SkillsContainer>
                     <h3>Some languages and technologies I've recently been working with are:</h3>
                     <ul className="skill-list">
                         <li className="skill-list-item">JavaScript</li>
@@ -39,7 +40,7 @@ const About = () => {
                         <li className="skill-list-item"></li>
                         <li className="skill-list-item"></li>
                     </ul>
-                </div>
+                </SkillsContainer>
             </PageWrapper>
             <Footer />
         </>
