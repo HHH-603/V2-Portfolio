@@ -1,0 +1,7 @@
+.project-links-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}

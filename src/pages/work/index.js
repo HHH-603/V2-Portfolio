@@ -9,6 +9,9 @@ import PageWrapper from '../../components/PageWrapper';
 import HeaderContainer from '../../components/HeaderContainer';
 import Header from '../../components/Header';
 import PageDescription from '../../components/PageDescription';
+import ProjectCard from '../../components/ProjectCard';
+import ImageContainer from '../../components/ImageContainer';
+import ProjectLinksContainer from '../../components/ProjectLinksContainer';
 
 const Work = () => {
     return (
@@ -21,45 +24,45 @@ const Work = () => {
                 </PageDescription>
             </HeaderContainer>
             <PageWrapper>
-                <div className="project-card">
-                    <div className="image-container">
+                <ProjectCard>
+                    <ImageContainer>
                         <a className="project-image-link" href=""></a>
                         <img src={BT} className="project-image" alt="budget-tracker" />
-                    </div>
+                    </ImageContainer>
                     <h2 className="project-name">Budget Tracker</h2>
                     <p className="project-paragraph"><strong>Description: </strong>Web application that allows users to easily track their money (purchases and deposits), both online and offline.</p>
                     <p className="project-paragraph"><strong>Languages/Technologies Used: </strong>JavaScript, HTML, Bootstrap, and MongoDB.</p>
-                    <div className="project-links-container">
+                    <ProjectLinksContainer>
                         <a className="project-link" href="https://quiet-temple-68742.herokuapp.com/">Deployed Application</a>
                         <a className="project-link" href="https://github.com/HHH-603/Online-Offline-Progressive-Web-App-Budget-Tracker">GitHub Repository</a>
-                    </div>
-                </div>
-                <div className="project-card">
-                    <div className="image-container">
+                    </ProjectLinksContainer>
+                </ProjectCard>
+                <ProjectCard>
+                    <ImageContainer>
                         <a className="project-image-link" href=""></a>
                         <img src={NT} className="project-image" alt="note-taker" />
-                    </div>
+                    </ImageContainer>
                     <h2 className="project-name">Note Taker</h2>
                     <p className="project-paragraph"><strong>Description: </strong>Web application where users can write, save, and delete notes.</p>
                     <p className="project-paragraph"><strong>Languages/Technologies Used: </strong>JavaScript, Node.js, HTML, and Bootstrap.</p>
-                    <div className="project-links-container">
+                    <ProjectLinksContainer>
                         <a className="project-link" href="https://hank-holmes-note-taker.herokuapp.com/">Deployed Application</a>
                         <a className="project-link" href="https://github.com/HHH-603/Note-Taker">Repository</a>
-                    </div>
-                </div>
-                <div className="project-card">
-                    <div className="image-container">
+                    </ProjectLinksContainer>
+                </ProjectCard>
+                <ProjectCard>
+                    <ImageContainer>
                         <img src={RG} className="project-image" alt="readme-generator" />
-                    </div>
+                    </ImageContainer>
                     <h2 className="project-name">README Generator</h2>
                     <p className="project-paragraph"><strong>Description: </strong>Resource that generates a fully formatted README.md file based on user responses to questions that are displayed via their terminal.</p>
                     <p className="project-paragraph"><strong>Languages/Technologies Used: </strong>JavaScript and Node.js.</p>
-                    <div className="project-links-container">
+                    <ProjectLinksContainer>
                         <a className="project-link" href="https://github.com/HHH-603/Online-Offline-Progressive-Web-App-Budget-Tracker">
                             GitHub Repository
                     </a>
-                    </div>
-                </div>
+                    </ProjectLinksContainer>
+                </ProjectCard>
             </PageWrapper>
             <Footer />
         </>
