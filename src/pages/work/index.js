@@ -7,16 +7,18 @@ import RG from './readme-generator.png';
 import './style.css';
 import PageWrapper from '../../components/PageWrapper';
 import HeaderContainer from '../../components/HeaderContainer';
+import Header from '../../components/Header';
+import PageDescription from '../../components/PageDescription';
 
 const Work = () => {
     return (
         <>
             <Navbar />
             <HeaderContainer>
-                <h1 className="heading">Work</h1>
-                <h2 className="heading-description">
+                <Header>Work</Header>
+                <PageDescription>
                     Here are a few projects that I've been working on:
-            </h2>
+                </PageDescription>
             </HeaderContainer>
             <PageWrapper>
                 <div className="project-card">

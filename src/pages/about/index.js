@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutContainer from '../../components/AboutContainer';
 import Footer from '../../components/footer';
+import Header from '../../components/Header';
 import HeaderContainer from '../../components/HeaderContainer';
 import Navbar from '../../components/navbar';
 import PageWrapper from '../../components/PageWrapper';
@@ -14,7 +15,7 @@ const About = () => {
         <>
             <Navbar />
             <HeaderContainer>
-                <h1 className="heading">About</h1>
+                <Header>About</Header>
             </HeaderContainer>
             <PageWrapper>
                 <ProfileContainer>
