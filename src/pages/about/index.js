@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../../components/footer';
 import Navbar from '../../components/navbar';
 import PageWrapper from '../../components/PageWrapper';
+import ProfileContainer from '../../components/ProfileContainer';
 import ProfilePic from '../../images/profile-picture.png';
 import './style.css';
 
@@ -11,9 +12,9 @@ const About = () => {
             <Navbar />
             <h1 className="heading">About</h1>
             <PageWrapper>
-                <div className="profile-container">
+                <ProfileContainer>
                     <img className="profile" src={ProfilePic} alt="profile" />
-                </div>
+                </ProfileContainer>
                 <div className="about-container">
                     <p>
                         I'm originally from <a className="about-link" href="https://en.wikipedia.org/wiki/Dunbarton,_New_Hampshire">Dunbarton, NH</a>, and recently earned my Full Stack Web Development certification from <a className="about-link" href="https://en.wikipedia.org/wiki/University_of_North_Carolina_at_Charlotte">UNC Charlotte</a> (class of 2021). I previously worked at <a className="about-link" href="https://www.everyaction.com/">EveryAction</a> in Washington, DC, where I helped equip mid-sized nonprofits with unified software solutions tailored to their fundraising and advocacy goals.
