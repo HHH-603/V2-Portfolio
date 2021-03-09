@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../../components/navbar/index';
 import Footer from '../../components/footer';
+import CQ from './constitution-quiz.png';
 import BT from './pwa-budget-tracker.png';
 import NT from './note-taker-app.png';
 import RG from './readme-generator.png';
@@ -25,6 +26,19 @@ const Work = () => {
                 </PageDescription>
             </HeaderContainer>
             <PageWrapper>
+            <ProjectCard>
+                    <ImageContainer>
+                        <a className="project-image-link" href=""></a>
+                        <img src={CQ} className="project-image" alt="constitution-quiz" />
+                    </ImageContainer>
+                    <ProjectName>Constitution Quiz</ProjectName>
+                    <p><strong>Description: </strong>Web application where users can test their knowledge of American civics and history.</p>
+                    <p><strong>Languages/Technologies Used: </strong>JavaScript, React, Node.js, React-Modal, Express.js, Lodash, Bcryptjs, Morgan, Axios, MongoDB, and Passport.</p>
+                    <ProjectLinksContainer>
+                        <a className="project-link" href="https://constitutionquiz.herokuapp.com/">Deployed Application</a>
+                        <a className="project-link" href="https://github.com/HHH-603/Constitution_Quiz">GitHub Repository</a>
+                    </ProjectLinksContainer>
+                </ProjectCard>
                 <ProjectCard>
                     <ImageContainer>
                         <a className="project-image-link" href=""></a>
