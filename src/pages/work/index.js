@@ -29,6 +29,36 @@ const Work = () => {
         <ProjectCard>
           <ImageContainer>
             <a className="project-image-link" href=""></a>
+            <img src={CQ} className="project-image" alt="constitution-quiz" />
+          </ImageContainer>
+          <ProjectName>Constitution Quiz</ProjectName>
+          <p>
+            <strong>Description: </strong>Web application where users can test
+            their knowledge of American civics and history.
+          </p>
+          <p>
+            <strong>Languages/Technologies Used: </strong>JavaScript, React,
+            Node.js, React-Modal, Express.js, Lodash, Bcryptjs, Morgan, Axios,
+            MongoDB, and Passport.
+          </p>
+          <ProjectLinksContainer>
+            <a
+              className="project-link"
+              href="https://constitutionquiz.herokuapp.com/loginform"
+            >
+              Deployed Application
+            </a>
+            <a
+              className="project-link"
+              href="https://github.com/HHH-603/Constitution_Quiz"
+            >
+              GitHub Repository
+            </a>
+          </ProjectLinksContainer>
+        </ProjectCard>
+        <ProjectCard>
+          <ImageContainer>
+            <a className="project-image-link" href=""></a>
             <img src={BT} className="project-image" alt="budget-tracker" />
           </ImageContainer>
           <ProjectName>Budget Tracker</ProjectName>
