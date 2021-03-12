@@ -31,18 +31,6 @@ const Work = () => {
             <a className="project-image-link" href=""></a>
             <img src={CQ} className="project-image" alt="constitution-quiz" />
           </ImageContainer>
-          <ProjectName>Constitution Quiz</ProjectName>
-          <p>
-            <strong>Description: </strong>Web application where users can test
-            their knowledge of American civics and history.
-          </p>
-          <p>
-            <strong>Languages/Technologies Used: </strong>JavaScript, React,
-            Node.js, and CSS.
-          </p>
-          <p>
-            <strong>Role: </strong> Front-End Development.
-          </p>
           <ProjectLinksContainer>
             <a
               className="project-link"
