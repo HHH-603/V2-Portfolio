@@ -1,10 +1,8 @@
-import React from 'react';
-import './style.css';
+import React from "react";
+import "./style.css";
 
 const ImageContainer = (props) => {
-    return (
-        <div className="image-container">{props.children}</div>
-    );
+  return <div className="image-container">{props.children}</div>;
 };
 
 export default ImageContainer;

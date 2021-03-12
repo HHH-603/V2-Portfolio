@@ -1,10 +1,8 @@
-import React from 'react';
-import './style.css';
+import React from "react";
+import "./style.css";
 
 function ProjectCard(props) {
-    return (
-        <div className="project-card">{props.children}</div>
-    );
-};
+  return <div className="project-card">{props.children}</div>;
+}
 
 export default ProjectCard;

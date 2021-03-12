@@ -1,10 +1,8 @@
-import React from 'react';
-import './style.css';
+import React from "react";
+import "./style.css";
 
 const AboutContainer = (props) => {
-    return (
-        <div className="about-container">{props.children}</div>
-    );
+  return <div className="about-container">{props.children}</div>;
 };
 
 export default AboutContainer;

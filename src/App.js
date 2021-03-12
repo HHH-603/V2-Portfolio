@@ -1,9 +1,9 @@
-import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Landing from './pages/landing';
-import About from './pages/about';
-import Work from './pages/work';
-import Contact from './pages/contact';
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Landing from "./pages/landing";
+import About from "./pages/about";
+import Work from "./pages/work";
+import Contact from "./pages/contact";
 
 function App() {
   return (
@@ -14,6 +14,6 @@ function App() {
       <Route exact path="/contact" component={Contact} />
     </Router>
   );
-};
+}
 
 export default App;
