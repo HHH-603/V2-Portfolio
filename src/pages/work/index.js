@@ -29,26 +29,6 @@ const Work = () => {
         <ProjectCard>
           <ImageContainer>
             <a className="project-image-link" href=""></a>
-            <img src={CQ} className="project-image" alt="constitution-quiz" />
-          </ImageContainer>
-          <ProjectLinksContainer>
-            <a
-              className="project-link"
-              href="https://constitutionquiz.herokuapp.com/"
-            >
-              Deployed Application
-            </a>
-            <a
-              className="project-link"
-              href="https://github.com/HHH-603/Constitution_Quiz"
-            >
-              GitHub Repository
-            </a>
-          </ProjectLinksContainer>
-        </ProjectCard>
-        <ProjectCard>
-          <ImageContainer>
-            <a className="project-image-link" href=""></a>
             <img src={BT} className="project-image" alt="budget-tracker" />
           </ImageContainer>
           <ProjectName>Budget Tracker</ProjectName>
