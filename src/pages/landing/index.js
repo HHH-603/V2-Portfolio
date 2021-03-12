@@ -41,8 +41,8 @@ const Landing = () => {
           >
             Charlotte, NC
           </a>
-          . I have a passion for creating web applications and websites with
-          intuitive designs.
+          . I have a passion for creating web applications + websites with
+          thoughtful + intuitive designs.
         </p>
         <div className="landing-page-links-container">
           <Link className="landing-page-link" to="/about">
