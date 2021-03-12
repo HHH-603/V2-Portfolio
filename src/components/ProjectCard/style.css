@@ -1,12 +1,12 @@
 .project-card {
-    display: flex;
-    flex-flow: column wrap;
-    max-width: 40rem;
-    margin: 1rem;
-    padding: 1rem;
-    border: .15rem solid #F0F1F2;
+  display: flex;
+  flex-flow: column wrap;
+  width: 40rem;
+  margin: 1rem;
+  padding: 1rem;
+  border: 0.15rem solid #f0f1f2;
 }
 
 .project-card:last-child {
-    margin-bottom: 4rem;
+  margin-bottom: 4rem;
 }

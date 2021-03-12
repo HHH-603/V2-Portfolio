@@ -77,9 +77,12 @@ const About = () => {
             </a>
             .
           </p>
-          <h3 className="skills-header">
-            Some languages and technologies I've recently been working with are:
-          </h3>
+          <p className="skills-header">
+            <strong>
+              Some languages and technologies I've recently been working with
+              are:
+            </strong>
+          </p>
         </AboutContainer>
         <SkillsContainer>
           <ul className="skill-list">

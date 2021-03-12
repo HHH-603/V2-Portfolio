@@ -1,12 +1,14 @@
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    margin-top: .5rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: 0.5rem;
 }
 
 .footer-paragraph {
-    text-align: center;
-    padding: .5rem;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 2rem;
+  padding: 0.5rem;
 }

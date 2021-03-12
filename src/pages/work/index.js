@@ -36,11 +36,11 @@ const Work = () => {
             </a>
           </ImageContainer>
           <ProjectName>Constitution Quiz</ProjectName>
-          <p>
+          <p className="project-card-paragraph">
             <strong>Description: </strong>Web application where users can test
             their knowledge of American civics and history.
           </p>
-          <p>
+          <p className="project-card-paragraph">
             <strong>Languages/Technologies Used: </strong>JavaScript, React,
             Node.js, React-Modal, Express.js, Lodash, Bcryptjs, Morgan, Axios,
             MongoDB, and Passport.
@@ -70,16 +70,16 @@ const Work = () => {
             </a>
           </ImageContainer>
           <ProjectName>Budget Tracker</ProjectName>
-          <p>
+          <p className="project-card-paragraph">
             <strong>Description: </strong>Web application that allows users to
             easily track their money (purchases and deposits), both online and
             offline.
           </p>
-          <p>
+          <p className="project-card-paragraph">
             <strong>Languages/Technologies Used: </strong>JavaScript, HTML,
             Bootstrap, and MongoDB.
           </p>
-          <p>
+          <p className="project-card-paragraph">
             <strong>Role: </strong>Sole Author.
           </p>
           <ProjectLinksContainer>
@@ -107,15 +107,15 @@ const Work = () => {
             </a>
           </ImageContainer>
           <ProjectName>Note Taker</ProjectName>
-          <p>
+          <p className="project-card-paragraph">
             <strong>Description: </strong>Web application where users can write,
             save, and delete notes.
           </p>
-          <p>
+          <p className="project-card-paragraph">
             <strong>Languages/Technologies Used: </strong>JavaScript, Node.js,
             HTML, and Bootstrap.
           </p>
-          <p>
+          <p className="project-card-paragraph">
             <strong>Role: </strong>Sole Author.
           </p>
           <ProjectLinksContainer>
@@ -143,16 +143,16 @@ const Work = () => {
             </a>
           </ImageContainer>
           <ProjectName>README Generator</ProjectName>
-          <p>
+          <p className="project-card-paragraph">
             <strong>Description: </strong>Resource that generates a fully
             formatted README.md file based on user responses to questions that
             are displayed via their terminal.
           </p>
-          <p>
+          <p className="project-card-paragraph">
             <strong>Languages/Technologies Used: </strong>JavaScript and
             Node.js.
           </p>
-          <p>
+          <p className="project-card-paragraph">
             <strong>Role: </strong>Sole Author.
           </p>
           <ProjectLinksContainer>
