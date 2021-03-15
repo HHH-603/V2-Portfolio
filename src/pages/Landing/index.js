@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../../components/Header";
-import LandingContainer from "../../components/landing-container";
-import Wrapper from "../../components/wrapper";
+import LandingContainer from "../../components/LandingContainer";
+import Wrapper from "../../components/Wrapper";
 
 import "./style.css";
 
@@ -49,7 +49,7 @@ const Landing = () => {
             About
           </Link>
           <Link className="landing-page-link" to="/work">
-            Work
+            Projects
           </Link>
           <Link className="landing-page-link" to="/contact">
             Contact
