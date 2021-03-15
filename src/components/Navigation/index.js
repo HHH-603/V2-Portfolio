@@ -16,13 +16,20 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="navbar">
-        <div className="menu-icon" onClick={handleToggle}>
-          <div
-            className="menu-bar"
-            // className={menubar ? "menu-bar" : "menu-bar-tilt"}
-            // onClick={handleTilt}
-          ></div>
+      <div className="navbar-container">
+        <div className="navbar-header-container">
+          <Link className="navbar-header-link" to="/">
+            HHH
+          </Link>
+        </div>
+        <div className="navbar">
+          <div className="menu-icon" onClick={handleToggle}>
+            <div
+              className="menu-bar"
+              // className={menubar ? "menu-bar" : "menu-bar-tilt"}
+              // onClick={handleTilt}
+            ></div>
+          </div>
         </div>
       </div>
       <div className={sansToggle ? "dropdown-menu-hidden" : "dropdown-menu"}>
