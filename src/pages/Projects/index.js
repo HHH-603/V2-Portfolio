@@ -20,9 +20,9 @@ const Work = () => {
     <>
       <Navbar />
       <HeaderContainer>
-        <Header>Work</Header>
+        <Header>Projects</Header>
         <PageDescription>
-          Here are a few projects that I've been working on:
+          Here are some projects I've been working on recently:
         </PageDescription>
       </HeaderContainer>
       <PageWrapper>

@@ -21,11 +21,13 @@
 .project-link {
   text-decoration: none;
   font-size: 1.25rem;
-  width: auto;
-  margin: 0.5rem;
-  padding: 0.25rem 0.5rem;
-  color: #f0f1f2;
-  border: 0.15rem solid #f0f1f2;
+  margin: .25rem .5rem;
+  padding-top:.75rem;
+  padding-bottom: .5rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  color: #F0F1F2;
+  border: .15rem solid #F0F1F2;
   transition: all 100ms ease-in;
 }
 

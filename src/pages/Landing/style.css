@@ -23,7 +23,10 @@
     text-decoration: none;
     font-size: 1.25rem;
     margin: .25rem .5rem;
-    padding:.5rem;
+    padding-top:.75rem;
+    padding-bottom: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
     color: #F0F1F2;
     border: .15rem solid #F0F1F2;
     transition: all 100ms ease-in;
@@ -42,6 +45,5 @@
 
     .landing-page-link {
         margin: .5rem;
-        padding: .5rem;
     }
 }
