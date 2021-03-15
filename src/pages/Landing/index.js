@@ -48,7 +48,7 @@ const Landing = () => {
           <Link className="landing-page-link" to="/about">
             About
           </Link>
-          <Link className="landing-page-link" to="/work">
+          <Link className="landing-page-link" to="/projects">
             Projects
           </Link>
           <Link className="landing-page-link" to="/contact">
