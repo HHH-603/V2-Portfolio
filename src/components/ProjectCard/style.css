@@ -1,7 +1,7 @@
 .project-card {
   display: flex;
   flex-flow: column wrap;
-  width: 40rem;
+  max-width: 40%;
   margin: 1rem;
   padding: 1rem;
   border: 0.15rem solid #f0f1f2;
@@ -9,4 +9,16 @@
 
 .project-card:last-child {
   margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 1950px) {
+  .project-card {
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .project-card {
+    max-width: 90%;
+  }
 }
