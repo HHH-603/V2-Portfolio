@@ -17,7 +17,7 @@ var greeting = () => {
   } else if (hoursNow > 0) {
     return "Good morning!";
   } else {
-    return "Greetings!";
+    return "Thank you for visiting my portfolio so late at night!";
   }
 };
 
