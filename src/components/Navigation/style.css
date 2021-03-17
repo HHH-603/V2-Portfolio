@@ -57,6 +57,7 @@
   flex-flow: column wrap;
   height: 40vh;
   width: auto;
+  margin-bottom: 1rem;
   background-color: #f0f1f2;
 }
 
