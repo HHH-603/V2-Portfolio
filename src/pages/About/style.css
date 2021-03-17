@@ -6,11 +6,17 @@
 .about-link {
   text-decoration: none;
   color: #f0f1f2;
+  background: linear-gradient(#f0f1f2 0 0) 0% calc(-3px - 100%) / var(--d, 0%)
+    200% no-repeat;
+  transition: 0.3s, background-size 0.3s 0.3s;
 }
 
 .about-link:hover,
 .about-link:focus {
-  border-bottom: 0.15rem solid #f0f1f2;
+  --d: 100%;
+  background-position: 50% 0%;
+  color: #222626;
+  transition: 0.3s, background-position 0.3s 0.3s, color 0.3s 0.3s;
 }
 
 .skills-header {
