@@ -34,15 +34,15 @@ const Landing = () => {
           >
             Hank
           </a>
-          , and I'm a Web Developer based in{" "}
+          , and I'm a Full Stack Web Developer based in{" "}
           <a
             className="anchor-link"
             href="https://en.wikipedia.org/wiki/Charlotte,_North_Carolina"
           >
             Charlotte, NC
           </a>
-          . I have a passion for creating web applications + websites with
-          thoughtful + intuitive designs.
+          . A friend once told me that if you do what you love, you'll never
+          work a day in your life - so I decided to learn how to code!
         </p>
         <div className="landing-page-links-container">
           <Link className="landing-page-link" to="/about">

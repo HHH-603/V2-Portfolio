@@ -1,13 +1,13 @@
 .about-container {
-    display: flex;
-    flex-flow: column wrap;
-    width: 42rem;
-    margin: .25rem;
-    padding: .25rem;
+  display: flex;
+  flex-flow: column;
+  width: 42rem;
+  margin: 0.25rem;
+  padding: 0.25rem;
 }
 
 @media screen and (max-width: 900px) {
-    .about-container {
-        max-width: 90%;
-    }
+  .about-container {
+    max-width: 90%;
+  }
 }

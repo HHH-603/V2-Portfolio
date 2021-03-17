@@ -1,73 +1,82 @@
 .navbar-container {
-    display: flex;
-    align-items: center;
-    height: 4rem;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  width: 100%;
 }
 
 .navbar-header-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 0;
-    margin: 0;
-    width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+  width: 50%;
 }
 
 .navbar-header-link {
-    text-decoration: none;
-    color: #F0F1F2;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 900;
-    margin-left: 1rem;
+  text-decoration: none;
+  color: #f0f1f2;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-left: 1rem;
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
 }
 
 .menu-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 1rem;
-    margin-bottom: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .menu-bar {
-    height: .5rem;
-    width: 2rem;
-    background-color:#F0F1F2;
-    transition: 1s;
+  height: 0.5rem;
+  width: 2rem;
+  background-color: #f0f1f2;
+  transition: 1s;
 }
 
 .dropdown-menu-hidden {
-    display: none;
+  display: none;
 }
 
 .dropdown-menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column wrap;
-    height: 40vh;
-    width: auto;
-    background-color: #F0F1F2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  height: 35vh;
+  width: auto;
+  margin-bottom: 0.5rem;
+  background-color: #f0f1f2;
 }
 
-
 .navbar-link {
-    text-decoration: none;
-    font-size: 2rem;
-    font-weight: 900;
-    margin: .25rem .5rem;
-    padding: .5rem;
-    background-color: #F0F1F2;
-    color: #222626;
-    margin: .5rem;
-    padding: .5rem .25rem;
+  text-decoration: none;
+  text-align: center;
+  width: 14rem;
+  font-size: 2rem;
+  color: #222626;
+  background: linear-gradient(#222626 0 0) 0% calc(-3px - 100%) / var(--d, 0%)
+    200% no-repeat;
+  transition: 0.3s, background-size 0.3s 0.3s;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0;
+}
+
+.navbar-link:hover,
+.navbar-link:focus {
+  --d: 100%;
+  background-position: 50% 0%;
+  color: #f0f1f2;
+  transition: 0.3s, background-position 0.3s 0.3s, color 0.3s 0.3s;
 }

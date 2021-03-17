@@ -43,7 +43,7 @@ const About = () => {
             </a>{" "}
             in Washington, DC, where I helped equip small and mid-sized
             nonprofits with unified CRM software solutions tailored to their
-            fundraising/advocacy/reporting goals.
+            fundraising, advocacy, and reporting goals.
           </p>
           <br />
           <p>
@@ -90,8 +90,8 @@ const About = () => {
             <li className="skill-list-item">React</li>
             <li className="skill-list-item">Node.js</li>
             <li className="skill-list-item">Express.js</li>
-            <li className="skill-list-item">SQL (MySQL)</li>
-            <li className="skill-list-item">NoSQL (MongoDB)</li>
+            <li className="skill-list-item">MongoDB</li>
+            <li className="skill-list-item">MySQL</li>
             <li className="skill-list-item">HTML</li>
             <li className="skill-list-item">CSS</li>
           </ul>

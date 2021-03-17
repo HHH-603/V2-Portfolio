@@ -1,13 +1,13 @@
 .landing-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    height: auto;
-    width: 42rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: auto;
+  width: 35rem;
 }
 
 @media screen and (max-width: 900px) {
-    .landing-container {
-        width: 90%;
-    }
+  .landing-container {
+    width: 90%;
+  }
 }

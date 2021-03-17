@@ -34,5 +34,22 @@
 }
 
 .skill-list-item:last-child {
-  padding-bottom: 4rem;
+  margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 400px) {
+  .profile {
+    height: auto;
+    width: 90%;
+  }
+
+  .skill-list-item:last-child {
+    margin-bottom: 6rem;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .skill-list-item:last-child {
+    margin-bottom: 8rem;
+  }
 }
