@@ -36,7 +36,7 @@ const About = () => {
               href="https://en.wikipedia.org/wiki/University_of_North_Carolina_at_Charlotte"
             >
               UNC Charlotte
-            </a>{" "}
+            </a>
             's Full Stack Web Development Bootcamp. I previously worked at{" "}
             <a className="about-link" href="https://www.everyaction.com/">
               EveryAction
