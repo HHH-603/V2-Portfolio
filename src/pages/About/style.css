@@ -11,8 +11,7 @@
   transition: 0.3s, background-size 0.3s 0.3s;
 }
 
-.about-link:hover,
-.about-link:focus {
+.about-link:hover {
   --d: 100%;
   background-position: 50% 0%;
   color: #222626;

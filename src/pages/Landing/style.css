@@ -35,8 +35,7 @@
   transition: all 100ms ease-in;
 }
 
-.landing-page-link:hover,
-.landing-page-link:focus {
+.landing-page-link:hover {
   background-color: #f0f1f2;
   color: #222626;
 }
