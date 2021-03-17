@@ -3,7 +3,7 @@
   flex-flow: row wrap;
   justify-content: center;
   height: auto;
-  width: 35rem;
+  width: 40rem;
 }
 
 @media screen and (max-width: 900px) {

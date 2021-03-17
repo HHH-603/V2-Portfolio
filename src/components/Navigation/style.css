@@ -18,7 +18,7 @@
   text-decoration: none;
   color: #f0f1f2;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 900;
   margin-left: 1rem;
 }
@@ -43,6 +43,7 @@
   width: 2rem;
   background-color: #f0f1f2;
   transition: 1s;
+  margin-top: 0.35rem;
 }
 
 .dropdown-menu-hidden {
@@ -69,4 +70,10 @@
   color: #222626;
   margin: 0.5rem;
   padding: 0.5rem 0.25rem;
+}
+
+@media screen and (max-width: 600px) {
+  .dropdown-menu {
+    height: 50vh;
+  }
 }

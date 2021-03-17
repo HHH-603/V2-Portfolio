@@ -39,8 +39,10 @@ const Landing = () => {
             className="anchor-link"
             href="https://en.wikipedia.org/wiki/Charlotte,_North_Carolina"
           >
-            Charlotte, NC.
+            Charlotte, NC
           </a>
+          . I love problem solving, learning, and designing intuitive web
+          applications + websites.
         </p>
         <div className="landing-page-links-container">
           <Link className="landing-page-link" to="/about">
