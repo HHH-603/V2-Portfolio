@@ -42,8 +42,17 @@
   height: 0.5rem;
   width: 2rem;
   background-color: #f0f1f2;
-  transition: 1s;
+  transition: 0.5s;
   margin-top: 0.35rem;
+}
+
+.menu-bar-tilt {
+  height: 0.5rem;
+  width: 2rem;
+  background-color: #f0f1f2;
+  transition: 0.5s;
+  margin-top: 0.35rem;
+  transform: rotate(-45deg);
 }
 
 .dropdown-menu-hidden {

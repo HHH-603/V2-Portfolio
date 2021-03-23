@@ -6,13 +6,13 @@ const Navbar = () => {
   const [sansToggle, withToggle] = useState(true);
   const [menubar, tiltMenubar] = useState(true);
 
-  const handleToggle = () => {
+  function handleToggle() {
     withToggle(!sansToggle);
-  };
+  }
 
-  const handleTilt = () => {
+  function handleTilt() {
     tiltMenubar(!menubar);
-  };
+  }
 
   return (
     <>
@@ -23,11 +23,13 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navbar">
-          <div className="menu-icon" onClick={handleToggle}>
+          <div className="menu-icon">
             <div
-              className="menu-bar"
-              // className={menubar ? "menu-bar" : "menu-bar-tilt"}
-              // onClick={handleTilt}
+              className={menubar ? "menu-bar" : "menu-bar-tilt"}
+              onClick={() => {
+                handleToggle();
+                handleTilt();
+              }}
             ></div>
           </div>
         </div>
