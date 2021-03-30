@@ -31,6 +31,7 @@ const Landing = () => {
           <a
             className="anchor-link"
             href="https://www.linkedin.com/in/henryhamiltonholmes/"
+            target="__blank"
           >
             Hank
           </a>
@@ -38,6 +39,7 @@ const Landing = () => {
           <a
             className="anchor-link"
             href="https://en.wikipedia.org/wiki/Charlotte,_North_Carolina"
+            target="__blank"
           >
             Charlotte, NC
           </a>

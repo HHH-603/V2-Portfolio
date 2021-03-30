@@ -29,8 +29,7 @@
   transition: all 100ms ease-in;
 }
 
-.project-link:hover,
-.project-link:focus {
+.project-link:hover {
   background-color: #f0f1f2;
   color: #222626;
 }

@@ -27,6 +27,7 @@ const About = () => {
             <a
               className="about-link"
               href="https://en.wikipedia.org/wiki/Dunbarton,_New_Hampshire"
+              target="__blank"
             >
               Dunbarton, NH
             </a>
@@ -34,11 +35,16 @@ const About = () => {
             <a
               className="about-link"
               href="https://en.wikipedia.org/wiki/University_of_North_Carolina_at_Charlotte"
+              target="__blank"
             >
               UNC Charlotte
             </a>
             's Full Stack Web Development Bootcamp. I previously worked at{" "}
-            <a className="about-link" href="https://www.everyaction.com/">
+            <a
+              className="about-link"
+              href="https://www.everyaction.com/"
+              target="__blank"
+            >
               EveryAction
             </a>{" "}
             in Washington, DC, where I helped equip small and mid-sized
@@ -51,6 +57,7 @@ const About = () => {
             <a
               className="about-link"
               href="https://www.alltrails.com/us/north-carolina"
+              target="__blank"
             >
               hiking
             </a>
@@ -58,6 +65,7 @@ const About = () => {
             <a
               className="about-link"
               href="https://www.foodandwine.com/recipes"
+              target="__blank"
             >
               working on my cooking skills
             </a>
@@ -65,6 +73,7 @@ const About = () => {
             <a
               className="about-link"
               href="https://en.wikipedia.org/wiki/Boston_Celtics"
+              target="__blank"
             >
               the NBA's greatest franchise
             </a>
@@ -72,6 +81,7 @@ const About = () => {
             <a
               className="about-link"
               href="https://www.tripadvisor.com/Attractions-g49022-Activities-c36-t133-Charlotte_North_Carolina.html"
+              target="__blank"
             >
               the Queen City's outstanding craft breweries
             </a>
