@@ -43,8 +43,8 @@ const Landing = () => {
           >
             Charlotte, NC
           </a>
-          . I love problem solving, learning, and designing intuitive web
-          applications + websites.
+          . I love to create thoughtfully-designed web apps and websites, solve
+          complex problems, and learn new things every day.
         </p>
         <div className="landing-page-links-container">
           <Link className="landing-page-link" to="/about">
