@@ -31,6 +31,7 @@ const Work = () => {
             <a
               className="project-image-link"
               href="https://constitutionquiz.herokuapp.com/loginform"
+              target="__blank"
             >
               <img src={CQ} className="project-image" alt="constitution-quiz" />
             </a>
@@ -49,12 +50,14 @@ const Work = () => {
             <a
               className="project-link"
               href="https://constitutionquiz.herokuapp.com/loginform"
+              target="__blank"
             >
               Deployed Application
             </a>
             <a
               className="project-link"
               href="https://github.com/HHH-603/Constitution_Quiz"
+              target="__blank"
             >
               GitHub Repository
             </a>
@@ -65,6 +68,7 @@ const Work = () => {
             <a
               className="project-image-link"
               href="https://quiet-temple-68742.herokuapp.com/"
+              target="__blank"
             >
               <img src={BT} className="project-image" alt="budget-tracker" />
             </a>
@@ -86,12 +90,14 @@ const Work = () => {
             <a
               className="project-link"
               href="https://quiet-temple-68742.herokuapp.com/"
+              target="__blank"
             >
               Deployed Application
             </a>
             <a
               className="project-link"
               href="https://github.com/HHH-603/Online-Offline-Progressive-Web-App-Budget-Tracker"
+              target="__blank"
             >
               GitHub Repository
             </a>
@@ -102,6 +108,7 @@ const Work = () => {
             <a
               className="project-image-link"
               href="https://hank-holmes-note-taker.herokuapp.com/"
+              target="__blank"
             >
               <img src={NT} className="project-image" alt="note-taker" />
             </a>
@@ -122,12 +129,14 @@ const Work = () => {
             <a
               className="project-link"
               href="https://hank-holmes-note-taker.herokuapp.com/"
+              target="__blank"
             >
               Deployed Application
             </a>
             <a
               className="project-link"
               href="https://github.com/HHH-603/Note-Taker"
+              target="__blank"
             >
               Repository
             </a>
@@ -138,6 +147,7 @@ const Work = () => {
             <a
               className="project-image-link"
               href="https://github.com/HHH-603/Online-Offline-Progressive-Web-App-Budget-Tracker"
+              target="__blank"
             >
               <img src={RG} className="project-image" alt="readme-generator" />
             </a>
@@ -159,6 +169,7 @@ const Work = () => {
             <a
               className="project-link"
               href="https://github.com/HHH-603/Online-Offline-Progressive-Web-App-Budget-Tracker"
+              target="__blank"
             >
               GitHub Repository
             </a>
